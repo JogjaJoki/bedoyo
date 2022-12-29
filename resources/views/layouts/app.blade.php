@@ -68,7 +68,7 @@
         <header>
             <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-success">
                 <div class="container-lg">
-                    <img  src="img/logo.png" width="50">
+                    <img  src="{{ asset('img/logo.png') }}" width="50">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -97,7 +97,7 @@
                 </div>
             </nav>
         </header>
-        <div>@yield('content')</div>
+        <div class="container p-5">@yield('content')</div>
         <footer class="footer mt-auto py-3 bg-success">
             <div class="container">
                 <span class="mb-3 mb-md-0 text-white">&copy; 2022 Singgih Dewandaru, In</span>
